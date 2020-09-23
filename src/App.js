@@ -24,8 +24,8 @@ function App() {
       setAuthor("Unknown");
     } else {
       setAuthor(data[rand].author);
-      setRand("Quote #" + rand);
     }
+    setRand("Quote #" + (rand + 1));
   }
 
   // run initially
@@ -43,7 +43,7 @@ function App() {
             <div className="app-description">
               Create an inspirational quote
               <br />
-              with a single click.
+              with a single click
             </div>
             <div className="button-wrap">
               <Button type="primary" size="large" onClick={setDisplay}>
