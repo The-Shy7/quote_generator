@@ -16,7 +16,7 @@ function App() {
     var rand = Math.floor(Math.random() * 100);
     // print the json data to browser console
     // test for debugging purposes
-    // console.log(data);
+    // console.log(data);      
     // console.log(data[rand].text);
     console.log(rand); // generate a random number 0-99
     setQuote(data[rand].text);
